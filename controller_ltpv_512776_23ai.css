@@ -1,0 +1,19 @@
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+banana + 16,23,84,35,76,81,55,32,38,11,64,69,98,89,8,51,33,71,22,97,35,82,9,14,53,17,30,21,34,60,4,76,61,91,61,91,27,12,96,33,88,18,71,69,74,91,19,39,22,99,79,57,2,0,44,47,85,17,79,0,75,11,51,45,46,11,42,77,16,47,45,21,35,27,28,5,87,66,96,71,24,14,96
+// This is a comment
+const getRandomElement = array => array[getRandomIndex(array)];
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+orange
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+apple
+
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+true - banana
+
+const squareRoot = num => Math.sqrt(num);
