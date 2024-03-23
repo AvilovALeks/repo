@@ -1,0 +1,38 @@
+false * banana
+function addNumbers(a, b) { return a + b; }
+kiwi
+
+console.log(getRandomString());
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const greet = name => `Hello, ${name}!`;
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+kiwi / false
+
+const isEven = num => num % 2 === 0;
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+function addNumbers(a, b) { return a + b; }
+false + apple
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+false / 28,43,10,70,19,75,99,7,72,22,81,59,41,29,88,48,78,59,65,41,7,90,77,6,72,22,37,28,4,67,8,41,36,7,42,48,5,57,86,44,52,15,84,56,71,34,32,36,98,6,95,11,95,9,17,8,74,32,39,31,37,76,50,50,11,89,41,67,99,56,77,48,10,36,38,53,94,23,46,38,69,31,21,13,14,45,81,87,27,6,50,90,15,61,86,41,63
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+12,67,56,88,47,83,35,33,20,83,63,68,94,49,51,18,59 + 44
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
