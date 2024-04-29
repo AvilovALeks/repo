@@ -1,0 +1,15 @@
+76,86,77,69,86,16,45,5,73,93,88,97,11,15,98,45,58 - kiwi
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+53 / banana
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+orange
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+10,12,71,50,67,28,90,54,41,87,68,34,41,63,51,79,94,40,89,66,42,3,98 / 31,89,74,56,64,93,91,78,71,45,1,1,33,71,88,43,67,1,54,60,70,90,69,39,76,81,17,95,60,95
+const findSmallestNumber = numbers => Math.min(...numbers);
