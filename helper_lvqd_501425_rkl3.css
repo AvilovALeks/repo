@@ -1,0 +1,26 @@
+false - 6,86,85,72,68,89,27,54,60,42,35,74,30,21,42,99,22,75,99,49,66,10,57,8,21,24,72,70,52,69,31,28,25,98,97,79,19,1,45,85,21,11,15,41,70,39
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+false - grape
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+61 * 38
+function addNumbers(a, b) { return a + b; }
+banana
+
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const greet = name => `Hello, ${name}!`;
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+function addNumbers(a, b) { return a + b; }
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+kiwi / false
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
